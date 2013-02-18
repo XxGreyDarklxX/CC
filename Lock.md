@@ -1,14 +1,14 @@
 Lock the door
 ==
 
-pass = "Votre_mdp"
+pass = "Your_password"
 
 print ("Lock Version 1")
 write "Password: "
 input = read()
 if input == pass then
-print ("Access Granted for 5 Seconds.")
-redstone.setOutput ("left", true )
+print ("Access Grantedfor 5 Secdons.")
+redstone.setOutput ("left", true)
 sleep(5)
 os.shutdown()
 else
